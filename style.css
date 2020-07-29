@@ -1,0 +1,83 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; /* if you want the light version */
+  background-color: white;
+  color: f8f9fc;
+}
+
+h1{
+    color: 56607d;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Inconsolata', sans-serif;
+}
+
+h2 {
+    font-size: 20px;
+    color: 5d81b0;
+  }
+
+img {
+  width: 250px;
+  border-radius: 50%;
+  position: center;
+}
+
+div {
+  border-top: 50px solid ;
+  border-bottom: 10px dotted grey
+  border-left: 10px dotted black;
+  border-right: 5px;
+}
+
+p {
+    color: black;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Inconsolata', sans-serif;
+  }
+
+li {
+  color: black;
+  width: 100%;
+}
+
+.container{
+  background-color: white;
+  width: 100%;
+  border-width: 10%;
+
+}
+
+.card {
+padding: 70px 80px;
+text-align: center;
+color: 665d5d
+width: 100px;
+}
+
+.card h2 {
+color: orange
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
